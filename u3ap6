@@ -1,0 +1,48 @@
+1 	cd 
+	Pwd
+	ls /dev/tty*
+2
+	Cd /dev
+	Ls tty*
+3
+	Cd 
+	Ls /dev/tty*??
+4	
+	Cd /dev
+	Ls tty??	
+5
+	Cd /dev && ls tty*
+6	
+	Cd
+	Mkdir ventas marketing ddesarrollo direccion
+	
+7	
+	Cd ventas/
+	Touch Enero (crear un fichero vacio)
+	Nano Febrero 
+	Echo “soy marzo”  > Marzo (para poner mas información poner doble fecha)
+
+8
+	Cd
+	Cp  ./ventas*./marketing
+9
+	Mkdir  ../ventas/2023
+	Cp  ./*
+
+10
+	Cd ..
+	Mkdir 2022
+	Cp ../marketing/*ero ./2022
+11
+	Cd  ../desarrollo
+	Mkdir ventas_2022
+Cp  ../ventas/2022/* ./ventas_2022
+12
+	Cd  ../desarrollo
+	Rm -r ../ventas/2022 ( si no esta vacio se borra con esto)
+13
+	Cd
+	Mv /desarrollo/ventas_2022/desarrollo/ventas2022	
+
+14
+	Cd /ventas
